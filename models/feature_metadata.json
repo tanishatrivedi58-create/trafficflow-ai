@@ -1,0 +1,23 @@
+{
+    "feature_columns": [
+        "traffic_volume",
+        "temp_c",
+        "rain_1h",
+        "snow_1h",
+        "clouds_all",
+        "hour_sin",
+        "hour_cos",
+        "day_sin",
+        "day_cos",
+        "is_weekend",
+        "is_holiday",
+        "is_rush_hour"
+    ],
+    "target_column": "traffic_volume",
+    "sequence_length": 12,
+    "target_min": 0.0,
+    "target_max": 7280.0,
+    "train_samples": 29302,
+    "val_samples": 5162,
+    "test_samples": 6075
+}
