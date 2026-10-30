@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Local Streamlit secrets & cache
+.streamlit/secrets.toml
+
+# Local Keras cache
+.keras/
+
+# OS & IDE temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# SQLite temporary journal files
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Local database and private configuration
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+.env
+.env.*
+!.env.example
+
+# Local environments and caches
+.venv/
+.streamlit/secrets.toml
+
